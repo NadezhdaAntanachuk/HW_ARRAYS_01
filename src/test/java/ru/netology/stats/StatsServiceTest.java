@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class StatsServiceTest {
 
+    //1
     @Test
-        //1
     void showldCalculateSumSales() {
 
         // подготавливаем данные:
@@ -23,8 +23,8 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    //2
     @Test
-        //2
     void showldCalculateAverageSales() {
 
         // подготавливаем данные:
@@ -39,8 +39,8 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    //3
     @Test
-        //3
     void showldCalculateMinSales() {
 
         // подготавливаем данные:
@@ -55,8 +55,8 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test  //4
-
+    //4
+    @Test
     void showldCalculateMaxSales() {
 
         // подготавливаем данные:
@@ -71,8 +71,8 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    //5
     @Test
-        //5
     void showldCalculateMonthCountLowSales() {
 
         // подготавливаем данные:
@@ -87,8 +87,8 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    //6
     @Test
-        //6
     void showldCalculateMonthCountHighSales() {
 
         // подготавливаем данные:
