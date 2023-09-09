@@ -16,8 +16,7 @@ public class StatsService {
     public long averageSales(long[] sales) {
         if (sales.length > 0) {
             return sumSales(sales) / sales.length;
-        }
-        else {
+        } else {
             return 0;
         }
     }
@@ -49,7 +48,7 @@ public class StatsService {
     }
 
     //5 количество месяцев, в которых продажи были ниже среднего (см. п.2)
-    public int monthCountlowSales(long[] sales) {
+    public int monthCountLowSales(long[] sales) {
         int countMonth = 0;
 
         for (int i = 0; i < sales.length; i++) {
